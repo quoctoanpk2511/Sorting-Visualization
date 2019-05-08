@@ -20,10 +20,10 @@ public  class NormalSort extends AbstractSort {
 	        FillTransition ft2 = new FillTransition();
 	        ft1.setShape((CNode)l1.getChildren().get(0));
 	        ft1.setDuration(Duration.millis(speed));
-	        ft1.setToValue(Color.BLACK);
+	        ft1.setToValue(Color.valueOf("#E4D7E5"));
 	        ft2.setDuration(Duration.millis(speed));
 	        ft2.setShape((CNode)l2.getChildren().get(0));
-	        ft2.setToValue(Color.BLACK);
+	        ft2.setToValue(Color.valueOf("#E4D7E5"));
 	        ft.getChildren().addAll(ft1,ft2);
 	        return ft;
 	 }
